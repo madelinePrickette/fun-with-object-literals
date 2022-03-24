@@ -10,6 +10,11 @@ let card0 = {
    //Chrome will list objects in alphabetical order
 }//end card0
 
+let card1 = {
+    suit: 'Spades',
+    number: 1
+}//end card1
+
 function isRed(cardToCheck){
     console.log('in isRed', cardToCheck);
     if( cardToCheck.suit === 'Hearts' || cardToCheck.suit === 'Diamonds'){
@@ -21,3 +26,4 @@ function isRed(cardToCheck){
 }//end isRed
 
 console.log(isRed(card0));
+console.log(isRed(card1));
